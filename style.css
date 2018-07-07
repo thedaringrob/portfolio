@@ -147,20 +147,24 @@ tbody > tr > td{
 button{
   padding: 20px 40px;
   text-align: center;
-  background-color: #5D5C61;
+  background-color: #ffff;
   font-size: 13px;
+  border:1.25px solid #000;
+  transition: color .20s ease-in-out;
   transition: background-color .20s ease-in-out;
+
 }
 button:hover{
-  background-color: #ff4532;
+  background-color: #000;
+  color: #ffff;
 }
 input[type=text]{
+  width:70%;
   height:20px;
-  width: 70%;
   padding: 20px 20px;
   font-size: 13px;
   box-sizing: border-box;
-  border: 1.5px solid black;
+  border: 1.5px solid #000;
   transition: border 0.2s ease-in-out;
   outline: none;
 }
@@ -178,6 +182,8 @@ textarea{
   outline: none;
   display: flex;
   flex-wrap: wrap;
+  font-family: inherit;
+
 }
 textarea:focus{
   border: 1.5px solid #ff4532;

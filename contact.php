@@ -1,5 +1,3 @@
-<section class="contentblock">
-  <div class="sectionwrap">
     <h2 id="contact">Contact</h2>
     <div class="formwrap">
       <form class="" action="#" method="post">
@@ -9,5 +7,3 @@
         <button type="submit" name="" value="Submit">Submit</button>
       </form>
     </div>
-  </div>
-</section>

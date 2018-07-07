@@ -110,17 +110,17 @@
     <tbody>
       <tr>
         <td>Mobil 1 Oil</td>
-        <td>Principal | National</td>
+        <td>Principal-National</td>
         <td>Limey</td>
       </tr>
       <tr>
         <td>Sheetz</td>
-        <td>Principal | Regional</td>
+        <td>Principal-Regional</td>
         <td>Falling Olive Productions</td>
       </tr>
       <tr>
         <td>NC Education Lottery</td>
-        <td>Principal | Regional</td>
+        <td>Principal-Regional</td>
         <td>Boulevard Films</td>
       </tr>
     </tbody>
