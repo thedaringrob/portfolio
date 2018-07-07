@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 10800px;
+  background-color: #ffff;
+  margin:0;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+h2{
+  writing-mode:vertical-rl;
+  /* margin-left: -2px;
+  padding-bottom: 30px; */
+  color:#ee6817;
+  font-weight: bold;
+}
+.contentpanel{
+  float:left;
+  width: 900px;
+  padding-right: 1040px;
+  color:#aaaaaa;
+}
+.content-wrap{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5em;
+  padding-left:145px;
+}
+/* quicksilver: #9DA3A4 */
+ /***************
+ NAVIGATION
+ ***************/
+
+nav{
+  margin-left: 150px;
+}
+
+.side{
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 150px;
+  box-shadow:0px 5px 10px  #6A6E72;
+  background-color:#ffff;
+  color:#000;
+}
+.name{
+font-size: 22px;
+text-align: center;
+background-color: #ee6817;
+}
+.name > h1{
+  margin: 0;
+}
+.links{
+  text-align: left;
+  padding-top: 110px;
+  padding-left:30px;
+  align-self: center;
+}
+li{
+  list-style: none;
+  padding:3px 0;
+}
+a>img{
+  width:80px;
+  height:80px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+p{
+}
+
+ /************
+ BODY
+ ************/
+
+/* .wrapper{ */
+  /* display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+  /* margin-left: 150px;
+  background-color: #000;
+} */
+/* .content-wrapper{
+width:100%;
+} */
+/******************
+  LANDING
+******************/
+#hero{
+  max-width:auto;
+  max-height: 100vh;
+  padding-left: 200px;
+}
+
+
+
+/******************
+   MEDIA
+******************/
+
+
+
+
+/******************
+   RESUME
+******************/
+.resume{
+  width:100%;
+}
+.resume-header{
+  text-align: left;
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+tbody > tr > td{
+  padding-left: 3px;
+}
+
+
+/******************
+    ABOUT
+******************/
+
+
+
+
+
+ /******************
+   CONTACT FORM
+ ******************/
+ .formwrap{
+   width: 100%;
+ }
+ label{
+   padding-bottom: 3px;
+ }
+button{
+  padding: 20px 40px;
+  text-align: center;
+  background-color: #5D5C61;
+  font-size: 13px;
+  transition: background-color .20s ease-in-out;
+}
+button:hover{
+  background-color: #ff4532;
+}
+input[type=text]{
+  height:20px;
+  width: 70%;
+  padding: 20px 20px;
+  font-size: 13px;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+  transition: border 0.2s ease-in-out;
+  outline: none;
+}
+input[type=text]:focus{
+  border: 1.5px solid #ff4532;
+}
+textarea{
+  width: 70%;
+  font-size: 13px;
+  padding: 20px 20px;
+  resize: none;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+  transition: border 0.2s ease-in-out;
+  outline: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+textarea:focus{
+  border: 1.5px solid #ff4532;
+}
+.contact{
+  margin-bottom: 5em;
+}
+
+@media only screen and (max-width: 1038px) {
+  /************
+  BODY (max-width: 1000px)
+  ************/
+  h2{
+    margin-left: -2px;
+    padding-bottom: 30px;
+  }
+  nav{
+  }
+  .side{
+    position: fixed;
+    /* background-color: #696D7D; */
+    width: 100%;
+    height:60px;
+    /* box-shadow:0px 5px 10px  #6A6E72; */
+    border-bottom: 0.25px solid #6A6E72;
+  }
+  .links li{
+    display:inline-block;
+    padding: 0 15px;
+  }
+
+  /******************
+  LANDING (max-width: 1000px)
+  ******************/
+  .wrapper{
+    padding-top: 90px;
+    margin: 0 ;
+    padding:0 3%;
+    width: 100%;
+  }
+  .content-wrapper{
+
+  }
+
+  /*// *****************
+  // MEDIA (max-width: 1000px)
+  // ******************/
+
+
+
+
+  /******************
+  CONTACT FORM (max-width: 1000px)
+  ******************/
+.formwrap{
+ width: 450px;
+ margin: 0 auto;
+}
+}/* end @media only screen and (max-width: 1000px) */
